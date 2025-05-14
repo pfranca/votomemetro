@@ -2,7 +2,7 @@
 export interface Answer {
   id: string;
   text: string;
-  value: number;
+  value: string;
 }
 
 export interface Question {
