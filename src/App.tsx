@@ -76,7 +76,7 @@ const App: React.FC = () => {
           <header className="bg-white shadow-sm">
             <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
               <h1 className="text-2xl font-bold text-gray-900 text-center">
-                Bússola Política
+                votoMEMEtro
               </h1>
             </div>
           </header>
@@ -120,7 +120,7 @@ const App: React.FC = () => {
           <footer className="bg-white mt-auto">
             <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
               <p className="text-center text-gray-500 text-sm">
-                © {new Date().getFullYear()} Bússola Política | 
+                © {new Date().getFullYear()} votoMEMEtro | 
                 Este projecto é apenas educativo e não recolhe dados pessoais
               </p>
             </div>
