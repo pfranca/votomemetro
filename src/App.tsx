@@ -76,7 +76,7 @@ const App: React.FC = () => {
         <header className="bg-white shadow-sm">
           <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
             <img 
-              src="/votomemetro/logo.png" 
+              src="logo.png" 
               alt="Logo" 
               className="h-8 w-8 mr-2" 
             />
