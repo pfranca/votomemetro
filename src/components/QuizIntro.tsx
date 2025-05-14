@@ -12,28 +12,19 @@ const QuizIntro: React.FC<QuizIntroProps> = ({ onStart }) => {
     <div className="fade-in quiz-container flex items-center justify-center min-h-[70vh]">
       <Card className="w-full">
         <CardHeader className="text-center">
-          <CardTitle className="text-3xl font-bold mb-2">Bússola Política</CardTitle>
+          <CardTitle className="text-3xl font-bold mb-2">VotóMEMEtro Legislativas 2025</CardTitle>
           <CardDescription className="text-lg">
-            Descubra com que partido político suas opiniões mais se alinham
+            Descobre com que partido te alinhas (mesmo que não queiras)
           </CardDescription>
         </CardHeader>
         
         <CardContent className="space-y-4">
           <p>
-            Este questionário contém {5} perguntas sobre diversos temas políticos 
-            e sociais. Com base nas suas respostas, iremos mostrar qual partido 
-            político melhor representa as suas opiniões.
+            O VotóMEMEtro é uma ferramenta interativa que te ajuda — a ti, o português comum — a perceber com que partido andas a dar match nas <em>primeiras</em> Legislativas de 2025.
           </p>
           
           <p>
-            Para cada pergunta, escolha a opção que melhor reflete a sua opinião.
-            Você pode voltar e alterar suas respostas a qualquer momento antes de
-            ver os resultados.
-          </p>
-          
-          <p>
-            Este é um projeto educativo e não coleta nenhum dado pessoal.
-            Todas as respostas são processadas apenas no seu navegador.
+            Os resultados estão certos 100% das vezes, confia Joca.
           </p>
         </CardContent>
         
@@ -42,7 +33,7 @@ const QuizIntro: React.FC<QuizIntroProps> = ({ onStart }) => {
             className="px-8 py-6 text-lg" 
             onClick={onStart}
           >
-            Começar o Quiz
+            Começar
           </Button>
         </CardFooter>
       </Card>

@@ -73,13 +73,18 @@ const App: React.FC = () => {
         <Sonner />
         
         <div className="min-h-screen bg-gray-50 flex flex-col">
-          <header className="bg-white shadow-sm">
-            <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
-              <h1 className="text-2xl font-bold text-gray-900 text-center">
-                votoMEMEtro
-              </h1>
-            </div>
-          </header>
+        <header className="bg-white shadow-sm">
+          <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
+            <img 
+              src="/votomemetro/logo.png" 
+              alt="Logo" 
+              className="h-8 w-8 mr-2" 
+            />
+            <h1 className="text-2xl font-bold text-gray-900">
+              VotóMEMEtro
+            </h1>
+          </div>
+        </header>
           
           <main className="flex-1 container mx-auto py-6 px-4">
             {quizStarted && !quizFinished && (
@@ -120,7 +125,7 @@ const App: React.FC = () => {
           <footer className="bg-white mt-auto">
             <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
               <p className="text-center text-gray-500 text-sm">
-                © {new Date().getFullYear()} votoMEMEtro | 
+                © {new Date().getFullYear()} VotóMEMEtro | 
                 Este projecto é apenas educativo e não recolhe dados pessoais
               </p>
             </div>
