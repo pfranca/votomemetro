@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils';
 interface QuestionProps {
   question: QuestionType;
   selectedAnswerId: string | null;
-  onAnswerSelect: (answerId: string, value: number) => void;
+  onAnswerSelect: (answerId: string, value: string) => void;
   onNext: () => void;
   onPrevious: () => void;
   isFirst: boolean;

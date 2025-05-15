@@ -18,7 +18,7 @@ const App: React.FC = () => {
   const [quizStarted, setQuizStarted] = useState(false);
   const [quizFinished, setQuizFinished] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [userAnswers, setUserAnswers] = useState<{ [key: number]: number }>({});
+  const [userAnswers, setUserAnswers] = useState<{ [key: number]: string }>({});
   const [selectedAnswers, setSelectedAnswers] = useState<{ [key: number]: string }>({});
   
   const currentQuestion = questions[currentQuestionIndex];
@@ -31,7 +31,7 @@ const App: React.FC = () => {
     setSelectedAnswers({});
   };
   
-  const handleAnswerSelect = (answerId: string, value: number) => {
+  const handleAnswerSelect = (answerId: string, value: string) => {
     setUserAnswers(prev => ({ ...prev, [currentQuestion.id]: value }));
     setSelectedAnswers(prev => ({ ...prev, [currentQuestion.id]: answerId }));
   };

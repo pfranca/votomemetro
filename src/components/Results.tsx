@@ -24,9 +24,9 @@ const Results: React.FC<ResultsProps> = ({ results, parties, onReset }) => {
     <div className="fade-in quiz-container">
       <Card className="w-full">
         <CardHeader>
-          <CardTitle className="text-3xl font-bold text-center">Seus Resultados</CardTitle>
+          <CardTitle className="text-3xl font-bold text-center">Resultados</CardTitle>
           <CardDescription className="text-lg text-center">
-            Com base nas suas respostas, você se alinha mais com:
+            Com base nas tuas respostas, devias considerar o seguinte partido:
           </CardDescription>
         </CardHeader>
         
@@ -48,7 +48,7 @@ const Results: React.FC<ResultsProps> = ({ results, parties, onReset }) => {
           <div className="space-y-3">
             <div className="text-xl font-semibold">Outros partidos:</div>
             
-            {enrichedResults.slice(1).map((result, index) => (
+            {enrichedResults.map((result, index) => (
               <div 
                 key={index} 
                 className="flex items-center justify-between border-b pb-2"
