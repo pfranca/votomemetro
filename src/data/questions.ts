@@ -36,7 +36,7 @@ export const questions = [
     answers: [
       { id: "a1", text: "Criminalizem o aumento. É especulação capitalista!", value: "PCP" },
       { id: "a2", text: "Mini a 1,90€? Isto é Lisboa a matar o povo.", value: "BE" },
-      { id: "a3", text: "Paguem, se querem boa cerveja biológico.", value: "PAN" },
+      { id: "a3", text: "Paguem, se querem boa cerveja biológica.", value: "PAN" },
       { id: "a4", text: "Querem destruir os velhos cafés para meter PUBs!", value: "Chega" },
       { id: "a5", text: "Vamos criar um fundo de apoio a tascos independentes.", value: "PS" },
       { id: "a6", text: "Liberalizem o mercado da mini, já.", value: "IL" },
