@@ -126,7 +126,7 @@ const App: React.FC = () => {
             <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
               <p className="text-center text-gray-500 text-sm">
                 © {new Date().getFullYear()} VotóMEMEtro | 
-                Este projecto é apenas educativo e não recolhe dados pessoais
+                Resultados mesmo fiáveis, juro mesmo.
               </p>
             </div>
           </footer>
